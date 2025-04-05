@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta charset="UTF-8"><title>儀表板</title><link rel="stylesheet" href="/static/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head>
+<body>
+<div class="navbar">📊 儀表板</div>
+<div class="container">
+  <canvas id="chart1" height="100"></canvas>
+</div>
+<script>
+const ctx = document.getElementById('chart1');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['Taiwan', 'China', 'Ukraine'],
+    datasets: [{
+      label: '被提及次數',
+      data: [2, 1, 2],
+      backgroundColor: '#E63946'
+    }]
+  }
+});
+</script>
+</body></html>

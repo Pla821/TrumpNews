@@ -1,0 +1,33 @@
+{
+  "taiwan": [
+    {
+      "time": "2025-04-04 10:00",
+      "source": "白宮",
+      "title": "Remarks on Taiwan security"
+    },
+    {
+      "time": "2025-04-03 19:30",
+      "source": "川普",
+      "title": "We support Taiwan!"
+    }
+  ],
+  "china": [
+    {
+      "time": "2025-04-02 11:00",
+      "source": "白宮",
+      "title": "Speech on China trade relations"
+    }
+  ],
+  "ukraine": [
+    {
+      "time": "2025-04-01 15:00",
+      "source": "川普",
+      "title": "Support for Ukraine"
+    },
+    {
+      "time": "2025-04-01 09:00",
+      "source": "白宮",
+      "title": "US-Ukraine relations"
+    }
+  ]
+}
